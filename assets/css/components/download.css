@@ -1,0 +1,52 @@
+/* download.css */
+.download_app {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 38, 93, 0.04),
+    rgba(0, 38, 93, 0.01)
+  );
+  padding: 90px 0;
+  position: relative;
+}
+
+/* Image */
+.download_app img {
+  border-radius: 22px;
+  box-shadow: 0 22px 55px rgba(0, 0, 0, 0.18);
+  display: block;
+  margin-inline: auto;
+}
+
+/* Headline */
+.download_app h2 {
+  margin-bottom: 18px;
+}
+
+/* Text */
+.download_app p {
+  max-width: 620px;
+}
+
+/* App links */
+.download_app .app_links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.download_app .app_links a {
+  display: inline-flex;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.download_app .app_links img {
+  max-height: 64px;
+  width: auto;
+}
+
+.download_app .app_links a:hover {
+  transform: translateY(-4px);
+}

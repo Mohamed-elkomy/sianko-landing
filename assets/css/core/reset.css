@@ -1,0 +1,26 @@
+/* reset.css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+/* Utilities */
+button:focus {
+  outline: auto;
+  box-shadow: none !important;
+}
+a:hover {
+  text-decoration: none;
+}
+
+

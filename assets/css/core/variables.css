@@ -1,0 +1,14 @@
+/* variables.css */
+:root {
+  --main-color: #00265d;
+  --sub-color: #00265d;
+  --gradient: linear-gradient(90deg, #00265d, #474b50);
+  --bg-color: #f0eef1;
+  --font-color: #7c8ba4;
+  --container-max: 1140px;
+  --radius-sm: 6px;
+  --radius-lg: 12px;
+  --gap: 1rem;
+  --transition-fast: 180ms;
+  --text-on-primary: #ffffff;
+}

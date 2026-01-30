@@ -1,0 +1,7 @@
+/* CRITICAL — Above the fold ONLY */
+/* Base */
+body {
+  margin: 0;
+  background-color: #fff;
+  direction: rtl;
+}

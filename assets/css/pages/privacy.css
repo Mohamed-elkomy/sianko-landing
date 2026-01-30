@@ -1,0 +1,60 @@
+/* privacy.css */
+
+.privacy-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 48px 50px;
+  border-radius: 16px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+.privacy-card h2 {
+  line-height: 1.4;
+}
+
+.privacy-section h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Content */
+.privacy-content p,
+.privacy-content ul {
+  font-size: 15.5px;
+  line-height: 2;
+  color: #555;
+}
+
+.privacy-content ul {
+  padding-right: 20px;
+}
+
+/* Icon */
+.privacy-icon {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #00265d, #474b50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Section layout */
+.privacy-section {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 32px;
+  align-items: flex-start;
+}
+
+/* Highlight */
+.highlight {
+  color: var(--main-color);
+  font-weight: 600;
+}

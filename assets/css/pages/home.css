@@ -1,0 +1,7 @@
+/* home.css */
+/* App store badges */
+.app_links img {
+  max-height: 70px;
+  width: auto;
+  display: inline-block;
+}
