@@ -1,0 +1,77 @@
+/* Typography.css */
+
+/* Font face (use woff2 first) */
+@font-face {
+  font-family: "Sky";
+  src:
+    url("../fonts/sky.woff2") format("woff2"),
+    url("../fonts/sky.woff") format("woff"),
+    url("../fonts/sky.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Base document rules (RTL safe) */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family:
+    "Sky",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif;
+  direction: rtl;
+  text-align: right;
+  color: var(--font-color);
+  background-color: #ffffff;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessibility helpers */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  inset-inline-start: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+  text-decoration: none;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Selection & focus */
+::selection {
+  background-color: var(--sub-color);
+  color: #fff;
+}
+:focus {
+  outline: none;
+}
+:focus-visible {
+  outline: 3px solid rgba(0, 38, 93, 0.18);
+  outline-offset: 2px;
+}
+
+/* Typography utilities */
+.line-height {
+  line-height: 1.7;
+}
+.text-lg {
+  font-size: 1.125rem;
+}
+.text-color {
+  color: var(--main-color);
+}
+.sub-color {
+  color: var(--sub-color);
+}

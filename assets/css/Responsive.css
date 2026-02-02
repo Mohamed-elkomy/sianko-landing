@@ -1,0 +1,418 @@
+/* Responsive.css */
+@media (max-width: 575px) {
+  /* Header */
+  header {
+    padding: 70px 0 40px;
+  }
+
+  header .text {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: right;
+  }
+
+  header h1 {
+    font-size: 26px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+  }
+
+  header h3 {
+    font-size: 17px;
+    margin-bottom: 16px;
+  }
+
+  header p {
+    font-size: 15px;
+    line-height: 1.9;
+  }
+
+  header .app_img {
+    max-width: 260px;
+    margin: 0 auto 24px;
+    border-radius: 20px;
+    background: #fff;
+  }
+
+  /* Navbar */
+  .navbar .nav-link.active::after {
+    display: none;
+  }
+
+  .navbar .nav-link.active {
+    background: linear-gradient(90deg, #00265d, #474b50);
+    color: #fff;
+    border-radius: 6px;
+    padding: 8px 12px;
+  }
+
+  .navbar .contact_us {
+    margin: 8px auto 0;
+  }
+
+  /* Showcase */
+  .showcase-block,
+  .showcase-block.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .showcase-media img {
+    max-width: 180px;
+    margin-bottom: 16px;
+  }
+
+  /* Features */
+  .features .feature_card .before {
+    display: none;
+  }
+
+  .features .feature {
+    padding: 18px 12px;
+  }
+
+  /* About */
+  .about {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .about h2 {
+    font-size: 22px;
+  }
+
+  .about p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .about img {
+    max-width: 240px;
+    margin-top: 20px;
+    transform: none;
+  }
+
+  /* Download */
+  .download_app {
+    padding: 70px 0;
+    text-align: center;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  header {
+    padding: 90px 0 60px;
+  }
+
+  header .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header .text {
+    padding-top: 80px;
+    text-align: right;
+  }
+
+  .app_links {
+    justify-content: center;
+  }
+
+  .showcase-block {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about {
+    padding: 90px 0 60px;
+    text-align: center;
+  }
+
+  .about img {
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .about {
+        padding: 100px 0;
+      }
+
+      .about h2 {
+        font-size: 28px;
+      }
+
+      .about img {
+        margin-top: 40px;
+      }
+    }
+
+    max-width: 300px;
+    margin-top: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  .about {
+    padding: 120px 0;
+  }
+
+  .about h2 {
+    font-size: 30px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+/* Privacy Page - Mobile */
+@media (max-width: 575px) {
+  .privacy-card {
+    padding: 30px 22px;
+  }
+
+  .privacy-section {
+    flex-direction: column;
+  }
+
+  .privacy-icon {
+    margin-bottom: 10px;
+  }
+
+  .privacy-card h2 {
+    font-size: 22px;
+  }
+}
+
+
+/* =========================
+   Mobile (≤ 575px)
+========================= */
+@media (max-width: 575px) {
+  /* Header */
+  header {
+    padding: 70px 0 40px;
+  }
+
+  header .text {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: right;
+  }
+
+  header h1 {
+    font-size: 26px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+  }
+
+  header h3 {
+    font-size: 17px;
+    margin-bottom: 16px;
+  }
+
+  header p {
+    font-size: 15px;
+    line-height: 1.9;
+  }
+
+  header .app_img {
+    max-width: 260px;
+    margin: 0 auto 24px;
+    border-radius: 20px;
+    background: #fff;
+  }
+
+  /* App links (Hero download buttons) */
+  .app_links {
+    align-items: center;
+    text-align: center;
+  }
+
+  .app_links .store-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .download-hint {
+    font-size: 14px;
+  }
+
+  .download-hint i {
+    animation: none;
+  }
+
+  /* Navbar */
+  .navbar .nav-link.active::after {
+    display: none;
+  }
+
+  .navbar .nav-link.active {
+    background: linear-gradient(90deg, #00265d, #474b50);
+    color: #fff;
+    border-radius: 6px;
+    padding: 8px 12px;
+  }
+
+  .navbar .contact_us {
+    margin: 8px auto 0;
+  }
+
+  /* Showcase */
+  .showcase-block,
+  .showcase-block.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .showcase-media img {
+    max-width: 180px;
+    margin-bottom: 16px;
+  }
+
+  /* Features */
+  .features .feature_card .before {
+    display: none;
+  }
+
+  .features .feature {
+    padding: 18px 12px;
+  }
+
+  /* About */
+  .about {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .about h2 {
+    font-size: 22px;
+  }
+
+  .about p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .about img {
+    max-width: 240px;
+    margin-top: 20px;
+    transform: none;
+  }
+
+  /* Download section */
+  .download_app {
+    padding: 70px 0;
+    text-align: center;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+  }
+
+  /* Privacy Page */
+  .privacy-card {
+    padding: 30px 22px;
+  }
+
+  .privacy-section {
+    flex-direction: column;
+  }
+
+  .privacy-icon {
+    margin-bottom: 10px;
+  }
+
+  .privacy-card h2 {
+    font-size: 22px;
+  }
+}
+
+/* =========================
+   Tablet (576px – 991px)
+========================= */
+@media (min-width: 576px) and (max-width: 991px) {
+  header {
+    padding: 90px 0 60px;
+  }
+
+  header .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header .text {
+    padding-top: 80px;
+    text-align: right;
+  }
+
+  .app_links {
+    justify-content: center;
+  }
+
+  .showcase-block {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about {
+    padding: 90px 0 60px;
+    text-align: center;
+  }
+
+  .about img {
+    max-width: 300px;
+    margin-top: 12px;
+  }
+}
+
+/* =========================
+   Desktop Medium (992px – 1199px)
+========================= */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about {
+    padding: 100px 0;
+  }
+
+  .about h2 {
+    font-size: 28px;
+  }
+
+  .about img {
+    margin-top: 40px;
+  }
+}
+
+/* =========================
+   Desktop Large (≥ 1200px)
+========================= */
+@media (min-width: 1200px) {
+  .about {
+    padding: 120px 0;
+  }
+
+  .about h2 {
+    font-size: 30px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+}
+
+/* =========================
+   Reduce Motion
+========================= */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
