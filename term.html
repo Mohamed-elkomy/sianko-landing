@@ -21,7 +21,7 @@
     <link
       rel="icon"
       type="image/svg+xml"
-      href="assets/images/header/Group-1.svg"
+      href="assets/images/header/Group.png"
     />
     <!-- Bootstrap (Grid only) -->
     <link
@@ -76,22 +76,50 @@
     <!-- Animate.css (for WOW.js) -->
     <link rel="stylesheet" href="assets/css/animate.css" />
 
-    <!-- Organization Schema -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "تطبيق صيانكو",
-        "url": "https://seyanko.app",
-        "logo": "https://seyanko.app/assets/images/header/Group-1.svg",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "01117892223",
-          "contactType": "customer service",
-          "email": "seyankoegypt@gmail.com"
-        }
-      }
-    </script>
+   <!-- Organization Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "تطبيق صيانكو",
+  "alternateName": "Seyanko",
+  "url": "https://seyanko.app",
+  "logo": "https://seyanko.app/assets/images/header/Group.png",
+
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+201117892223",
+      "contactType": "customer service",
+      "areaServed": "EG",
+      "availableLanguage": ["ar"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+201140012070",
+      "contactType": "complaints",
+      "areaServed": "EG",
+      "availableLanguage": ["ar"]
+    }
+  ],
+
+  "email": "seyankoegypt@gmail.com",
+
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Dreams of designing your décor – Helwan / Maadi / New Cairo",
+    "addressLocality": "Cairo",
+    "addressRegion": "Cairo",
+    "postalCode": "11511",
+    "addressCountry": "EG"
+  },
+
+  "sameAs": [
+    "https://maps.app.goo.gl/1bRjCA1yZSdfC9VJ6"
+  ]
+}
+</script>
+
 
     <title>الشروط والأحكام - تطبيق صيانكو</title>
   </head>
@@ -110,7 +138,7 @@
       <div class="container">
         <a class="navbar-brand text-color" href="index.html">
           <img
-            src="assets/images/header/Group-1.svg"
+            src="assets/images/header/Group.png"
             alt="شعار تطبيق صيانكو"
             width="60"
             height="60"
@@ -343,7 +371,7 @@
             <a class="logo" href="index.html"
               ><img
                 style="width: 100px; max-width: 100%"
-                src="assets/images/header/Group-1.svg"
+                src="assets/images/header/Group.png"
                 alt="شعار تطبيق صيانكو"
                 loading="lazy"
                 decoding="async"

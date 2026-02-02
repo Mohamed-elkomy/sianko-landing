@@ -1,85 +1,107 @@
 <!doctype html>
 <html lang="en">
   <head>
-    ]
-    <head>
-      <!-- Basic -->
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-      <!-- SEO -->
-      <meta
-        name="description"
-        content="تواصل مع فريق صيانكو لخدمة العملاء أو الشكاوى، نحن هنا لمساعدتك في أي وقت."
-      />
-      <meta
-        name="keywords"
-        content="صيانكو, تواصل معنا, خدمة العملاء, شكاوى, صيانة"
-      />
-      <meta name="author" content="صيانكو" />
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="تواصل مع فريق صيانكو لخدمة العملاء أو الشكاوى، نحن هنا لمساعدتك في أي وقت."
+    />
+    <meta
+      name="keywords"
+      content="صيانكو, تواصل معنا, خدمة العملاء, شكاوى, صيانة"
+    />
+    <meta name="author" content="صيانكو" />
 
-      <title>تواصل معنا - تطبيق صيانكو</title>
+    <title>تواصل معنا - تطبيق صيانكو</title>
 
-      <!-- Favicon -->
-      <link
-        rel="icon"
-        type="image/svg+xml"
-        href="assets/images/header/Group-1.svg"
-      />
+   <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="assets/images/header/Group.png"
+    />
 
-      <!-- Bootstrap (Grid only) -->
-      <link
-        rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        crossorigin="anonymous"
-      />
+    <!-- Bootstrap (Grid only) -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
 
-      <!-- Font Awesome -->
-      <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-        crossorigin="anonymous"
-      />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      crossorigin="anonymous"
+    />
 
-      <!-- Animate.css -->
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-        crossorigin="anonymous"
-      />
+    <!-- Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      crossorigin="anonymous"
+    />
 
-      <!-- Project CSS -->
-      <link rel="stylesheet" href="assets/css/critical.css" />
-      <link rel="stylesheet" href="assets/css/main.css" />
-      <link rel="stylesheet" href="assets/css/pages/contact.css" />
+    <!-- Project CSS -->
+    <link rel="stylesheet" href="assets/css/critical.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/pages/contact.css" />
 
-      <!-- Font preload -->
-      <link
-        rel="preload"
-        href="assets/fonts/sky.woff2"
-        as="font"
-        type="font/woff2"
-        crossorigin
-      />
+    <!-- Font preload -->
+    <link
+      rel="preload"
+      href="assets/fonts/sky.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
 
-      <!-- Organization Schema -->
-      <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          "name": "تطبيق صيانكو",
-          "url": "https://seyanko.app",
-          "logo": "https://seyanko.app/assets/images/header/Group-1.svg",
-          "contactPoint": {
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "تطبيق صيانكو",
+        "alternateName": "Seyanko",
+        "url": "https://seyanko.app",
+        "logo": "https://seyanko.app/assets/images/header/Group.png",
+
+        "contactPoint": [
+          {
             "@type": "ContactPoint",
-            "telephone": "01117892223",
+            "telephone": "+201117892223",
             "contactType": "customer service",
-            "email": "seyankoegypt@gmail.com"
+            "areaServed": "EG",
+            "availableLanguage": ["ar"]
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+201140012070",
+            "contactType": "complaints",
+            "areaServed": "EG",
+            "availableLanguage": ["ar"]
           }
-        }
-      </script>
-    </head>
+        ],
+
+        "email": "seyankoegypt@gmail.com",
+
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Dreams of designing your décor – Helwan / Maadi / New Cairo",
+          "addressLocality": "Cairo",
+          "addressRegion": "Cairo",
+          "postalCode": "11511",
+          "addressCountry": "EG"
+        },
+
+        "sameAs": ["https://maps.app.goo.gl/1bRjCA1yZSdfC9VJ6"]
+      }
+    </script>
   </head>
   <body>
     <!-- Navbar -->
@@ -91,7 +113,7 @@
       <div class="container">
         <a class="navbar-brand text-color" href="index.html">
           <img
-            src="assets/images/header/Group-1.svg"
+            src="assets/images/header/Group.png"
             alt="شعار تطبيق صيانكو"
             width="60"
             height="60"
@@ -225,14 +247,21 @@
               <i class="fab fa-tiktok"></i>
             </a>
 
-             <a href="https://www.instagram.com/seyankoegypt" target="_blank" aria-label="Instagram">
-                <i class="fab fa-instagram"></i>
-              </a>
+            <a
+              href="https://www.instagram.com/seyankoegypt"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
 
-           
-              <a href="https://www.facebook.com/share/19ZyDKUZcT/" target="_blank" aria-label="Facebook">
-                <i class="fab fa-facebook-f"></i>
-              </a>
+            <a
+              href="https://www.facebook.com/share/19ZyDKUZcT/"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
           </div>
         </div>
       </section>
@@ -245,7 +274,7 @@
             <a class="logo" href="index.html"
               ><img
                 style="width: 100px; max-width: 100%"
-                src="assets/images/header/Group-1.svg"
+                src="assets/images/header/Group.png"
                 alt="شعار تطبيق صيانكو"
                 loading="lazy"
                 decoding="async"
@@ -274,10 +303,18 @@
                 <i class="fab fa-tiktok"></i>
               </a>
 
-               <a href="https://www.instagram.com/seyankoegypt" target="_blank" aria-label="Instagram">
+              <a
+                href="https://www.instagram.com/seyankoegypt"
+                target="_blank"
+                aria-label="Instagram"
+              >
                 <i class="fab fa-instagram"></i>
               </a>
-<a href="https://www.facebook.com/share/19ZyDKUZcT/" target="_blank" aria-label="Facebook">
+              <a
+                href="https://www.facebook.com/share/19ZyDKUZcT/"
+                target="_blank"
+                aria-label="Facebook"
+              >
                 <i class="fab fa-facebook-f"></i>
               </a>
             </div>
