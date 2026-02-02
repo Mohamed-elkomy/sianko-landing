@@ -1,0 +1,33 @@
+/* Layout.css */
+
+.section-rtl {
+  text-align: right;
+}
+
+.section-rtl .container {
+  max-width: 1140px; /* Bootstrap lg */
+  margin-inline: auto;
+}
+
+.section-rtl h1,
+.section-rtl h2,
+.section-rtl h3,
+.section-rtl h4,
+.section-rtl p {
+  text-align: right;
+}
+
+/* Scrollbar (global layout behavior) */
+body::-webkit-scrollbar {
+  width: 9px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(204, 204, 204, 0.43);
+  border-radius: 20px;
+  border: 3px solid rgba(204, 204, 204, 0.43);
+}

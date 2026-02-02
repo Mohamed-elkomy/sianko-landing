@@ -1,0 +1,123 @@
+/* Header.css */
+header {
+  background-color: #00265d;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+header h1,
+header h3,
+header p {
+  color: #fff;
+}
+/* Hero Text */
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+.hero-text h3 {
+  font-size: 22px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+.hero-text p {
+  font-size: 17px;
+  line-height: 1.9;
+  opacity: 0.85;
+  max-width: 520px;
+}
+/* App Image */
+header .app_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+}
+header .app_img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* App Store Links */
+.app_links {
+  display: flex;
+  flex-direction: column; /* 👈 ده المفتاح */
+  gap: 14px;
+  margin-top: 28px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+.app_links .store-buttons {
+  display: flex;
+  gap: 18px;
+}
+
+
+.app_links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition:
+    background-color 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.app_links img {
+  max-height: 64px;
+  width: auto;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+/* Hover effect */
+.app_links a:hover {
+  background-color: #fff;
+  border-color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.app_links a:hover img {
+  transform: scale(1.03);
+}
+
+.download-hint {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  opacity: 0.95;
+  margin-bottom: 12px;
+  animation: fadeSlideDown 0.6s ease forwards;
+}
+
+.download-hint i {
+  font-size: 14px;
+  animation: bounceDown 1.2s infinite;
+}
+@keyframes fadeSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+}
